@@ -1,0 +1,1099 @@
+t = 0.10 s
+mass = 0.493 kg
+thrust = 15.00 N
+weight = 0.493 * 9.81 = 4.84 N
+drag = 0.00 N
+net force = 15.00 - 4.84 - 0.00 = 10.16 N
+acceleration = 10.16 / 0.493 = 20.60 m/s²
+velocity = 2.06 m/s
+altitude = 0.21 m
+---
+
+t = 0.20 s
+mass = 0.487 kg
+thrust = 15.00 N
+weight = 0.487 * 9.81 = 4.77 N
+drag = 3.18 N
+net force = 15.00 - 4.77 - 3.18 = 7.04 N
+acceleration = 7.04 / 0.487 = 14.48 m/s²
+velocity = 3.51 m/s
+altitude = 0.56 m
+---
+
+t = 0.30 s
+mass = 0.480 kg
+thrust = 15.00 N
+weight = 0.480 * 9.81 = 4.71 N
+drag = 9.22 N
+net force = 15.00 - 4.71 - 9.22 = 1.07 N
+acceleration = 1.07 / 0.480 = 2.22 m/s²
+velocity = 3.73 m/s
+altitude = 0.93 m
+---
+
+t = 0.40 s
+mass = 0.473 kg
+thrust = 15.00 N
+weight = 0.473 * 9.81 = 4.64 N
+drag = 10.43 N
+net force = 15.00 - 4.64 - 10.43 = -0.07 N
+acceleration = -0.07 / 0.473 = -0.16 m/s²
+velocity = 3.71 m/s
+altitude = 1.30 m
+---
+
+t = 0.50 s
+mass = 0.467 kg
+thrust = 15.00 N
+weight = 0.467 * 9.81 = 4.58 N
+drag = 10.34 N
+net force = 15.00 - 4.58 - 10.34 = 0.08 N
+acceleration = 0.08 / 0.467 = 0.17 m/s²
+velocity = 3.73 m/s
+altitude = 1.67 m
+---
+
+t = 0.60 s
+mass = 0.460 kg
+thrust = 15.00 N
+weight = 0.460 * 9.81 = 4.51 N
+drag = 10.44 N
+net force = 15.00 - 4.51 - 10.44 = 0.05 N
+acceleration = 0.05 / 0.460 = 0.11 m/s²
+velocity = 3.74 m/s
+altitude = 2.05 m
+---
+
+t = 0.70 s
+mass = 0.453 kg
+thrust = 15.00 N
+weight = 0.453 * 9.81 = 4.45 N
+drag = 10.50 N
+net force = 15.00 - 4.45 - 10.50 = 0.05 N
+acceleration = 0.05 / 0.453 = 0.12 m/s²
+velocity = 3.75 m/s
+altitude = 2.42 m
+---
+
+t = 0.80 s
+mass = 0.447 kg
+thrust = 15.00 N
+weight = 0.447 * 9.81 = 4.38 N
+drag = 10.57 N
+net force = 15.00 - 4.38 - 10.57 = 0.05 N
+acceleration = 0.05 / 0.447 = 0.12 m/s²
+velocity = 3.77 m/s
+altitude = 2.80 m
+---
+
+t = 0.90 s
+mass = 0.440 kg
+thrust = 15.00 N
+weight = 0.440 * 9.81 = 4.32 N
+drag = 10.63 N
+net force = 15.00 - 4.32 - 10.63 = 0.05 N
+acceleration = 0.05 / 0.440 = 0.12 m/s²
+velocity = 3.78 m/s
+altitude = 3.18 m
+---
+
+t = 1.00 s
+mass = 0.433 kg
+thrust = 15.00 N
+weight = 0.433 * 9.81 = 4.25 N
+drag = 10.70 N
+net force = 15.00 - 4.25 - 10.70 = 0.05 N
+acceleration = 0.05 / 0.433 = 0.12 m/s²
+velocity = 3.79 m/s
+altitude = 3.56 m
+---
+
+t = 1.10 s
+mass = 0.427 kg
+thrust = 15.00 N
+weight = 0.427 * 9.81 = 4.19 N
+drag = 10.76 N
+net force = 15.00 - 4.19 - 10.76 = 0.05 N
+acceleration = 0.05 / 0.427 = 0.12 m/s²
+velocity = 3.80 m/s
+altitude = 3.94 m
+---
+
+t = 1.20 s
+mass = 0.420 kg
+thrust = 15.00 N
+weight = 0.420 * 9.81 = 4.12 N
+drag = 10.83 N
+net force = 15.00 - 4.12 - 10.83 = 0.05 N
+acceleration = 0.05 / 0.420 = 0.12 m/s²
+velocity = 3.81 m/s
+altitude = 4.32 m
+---
+
+t = 1.30 s
+mass = 0.413 kg
+thrust = 15.00 N
+weight = 0.413 * 9.81 = 4.05 N
+drag = 10.90 N
+net force = 15.00 - 4.05 - 10.90 = 0.05 N
+acceleration = 0.05 / 0.413 = 0.12 m/s²
+velocity = 3.82 m/s
+altitude = 4.70 m
+---
+
+t = 1.40 s
+mass = 0.407 kg
+thrust = 15.00 N
+weight = 0.407 * 9.81 = 3.99 N
+drag = 10.96 N
+net force = 15.00 - 3.99 - 10.96 = 0.05 N
+acceleration = 0.05 / 0.407 = 0.12 m/s²
+velocity = 3.83 m/s
+altitude = 5.08 m
+---
+
+t = 1.50 s
+mass = 0.400 kg
+thrust = 15.00 N
+weight = 0.400 * 9.81 = 3.92 N
+drag = 11.03 N
+net force = 15.00 - 3.92 - 11.03 = 0.05 N
+acceleration = 0.05 / 0.400 = 0.12 m/s²
+velocity = 3.85 m/s
+altitude = 5.47 m
+---
+
+t = 1.60 s
+mass = 0.393 kg
+thrust = 15.00 N
+weight = 0.393 * 9.81 = 3.86 N
+drag = 11.10 N
+net force = 15.00 - 3.86 - 11.10 = 0.05 N
+acceleration = 0.05 / 0.393 = 0.11 m/s²
+velocity = 3.86 m/s
+altitude = 5.85 m
+---
+
+t = 1.70 s
+mass = 0.387 kg
+thrust = 15.00 N
+weight = 0.387 * 9.81 = 3.79 N
+drag = 11.16 N
+net force = 15.00 - 3.79 - 11.16 = 0.04 N
+acceleration = 0.04 / 0.387 = 0.11 m/s²
+velocity = 3.87 m/s
+altitude = 6.24 m
+---
+
+t = 1.80 s
+mass = 0.380 kg
+thrust = 15.00 N
+weight = 0.380 * 9.81 = 3.73 N
+drag = 11.23 N
+net force = 15.00 - 3.73 - 11.23 = 0.04 N
+acceleration = 0.04 / 0.380 = 0.11 m/s²
+velocity = 3.88 m/s
+altitude = 6.63 m
+---
+
+t = 1.90 s
+mass = 0.373 kg
+thrust = 15.00 N
+weight = 0.373 * 9.81 = 3.66 N
+drag = 11.30 N
+net force = 15.00 - 3.66 - 11.30 = 0.04 N
+acceleration = 0.04 / 0.373 = 0.11 m/s²
+velocity = 3.89 m/s
+altitude = 7.02 m
+---
+
+t = 2.00 s
+mass = 0.367 kg
+thrust = 15.00 N
+weight = 0.367 * 9.81 = 3.60 N
+drag = 11.36 N
+net force = 15.00 - 3.60 - 11.36 = 0.04 N
+acceleration = 0.04 / 0.367 = 0.11 m/s²
+velocity = 3.90 m/s
+altitude = 7.41 m
+---
+
+t = 2.10 s
+mass = 0.360 kg
+thrust = 15.00 N
+weight = 0.360 * 9.81 = 3.53 N
+drag = 11.43 N
+net force = 15.00 - 3.53 - 11.43 = 0.04 N
+acceleration = 0.04 / 0.360 = 0.11 m/s²
+velocity = 3.91 m/s
+altitude = 7.80 m
+---
+
+t = 2.20 s
+mass = 0.353 kg
+thrust = 15.00 N
+weight = 0.353 * 9.81 = 3.47 N
+drag = 11.49 N
+net force = 15.00 - 3.47 - 11.49 = 0.04 N
+acceleration = 0.04 / 0.353 = 0.11 m/s²
+velocity = 3.93 m/s
+altitude = 8.19 m
+---
+
+t = 2.30 s
+mass = 0.347 kg
+thrust = 15.00 N
+weight = 0.347 * 9.81 = 3.40 N
+drag = 11.56 N
+net force = 15.00 - 3.40 - 11.56 = 0.04 N
+acceleration = 0.04 / 0.347 = 0.11 m/s²
+velocity = 3.94 m/s
+altitude = 8.59 m
+---
+
+t = 2.40 s
+mass = 0.340 kg
+thrust = 15.00 N
+weight = 0.340 * 9.81 = 3.34 N
+drag = 11.63 N
+net force = 15.00 - 3.34 - 11.63 = 0.04 N
+acceleration = 0.04 / 0.340 = 0.11 m/s²
+velocity = 3.95 m/s
+altitude = 8.98 m
+---
+
+t = 2.50 s
+mass = 0.333 kg
+thrust = 15.00 N
+weight = 0.333 * 9.81 = 3.27 N
+drag = 11.69 N
+net force = 15.00 - 3.27 - 11.69 = 0.04 N
+acceleration = 0.04 / 0.333 = 0.11 m/s²
+velocity = 3.96 m/s
+altitude = 9.38 m
+---
+
+t = 2.60 s
+mass = 0.327 kg
+thrust = 15.00 N
+weight = 0.327 * 9.81 = 3.20 N
+drag = 11.76 N
+net force = 15.00 - 3.20 - 11.76 = 0.04 N
+acceleration = 0.04 / 0.327 = 0.11 m/s²
+velocity = 3.97 m/s
+altitude = 9.77 m
+---
+
+t = 2.70 s
+mass = 0.320 kg
+thrust = 15.00 N
+weight = 0.320 * 9.81 = 3.14 N
+drag = 11.83 N
+net force = 15.00 - 3.14 - 11.83 = 0.04 N
+acceleration = 0.04 / 0.320 = 0.11 m/s²
+velocity = 3.98 m/s
+altitude = 10.17 m
+---
+
+t = 2.80 s
+mass = 0.313 kg
+thrust = 15.00 N
+weight = 0.313 * 9.81 = 3.07 N
+drag = 11.89 N
+net force = 15.00 - 3.07 - 11.89 = 0.03 N
+acceleration = 0.03 / 0.313 = 0.11 m/s²
+velocity = 3.99 m/s
+altitude = 10.57 m
+---
+
+t = 2.90 s
+mass = 0.307 kg
+thrust = 15.00 N
+weight = 0.307 * 9.81 = 3.01 N
+drag = 11.96 N
+net force = 15.00 - 3.01 - 11.96 = 0.03 N
+acceleration = 0.03 / 0.307 = 0.11 m/s²
+velocity = 4.00 m/s
+altitude = 10.97 m
+---
+
+t = 3.00 s
+mass = 0.300 kg
+thrust = 15.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 12.02 N
+net force = 15.00 - 2.94 - 12.02 = 0.03 N
+acceleration = 0.03 / 0.300 = 0.11 m/s²
+velocity = 4.02 m/s
+altitude = 11.37 m
+---
+
+t = 3.10 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 12.09 N
+net force = 0.00 - 2.94 - 12.09 = -15.03 N
+acceleration = -15.03 / 0.300 = -50.11 m/s²
+velocity = -1.00 m/s
+altitude = 11.27 m
+---
+
+t = 3.20 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -1.98 m/s
+altitude = 11.08 m
+---
+
+t = 3.30 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -2.96 m/s
+altitude = 10.78 m
+---
+
+t = 3.40 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -3.94 m/s
+altitude = 10.39 m
+---
+
+t = 3.50 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -4.92 m/s
+altitude = 9.89 m
+---
+
+t = 3.60 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -5.90 m/s
+altitude = 9.30 m
+---
+
+t = 3.70 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -6.88 m/s
+altitude = 8.62 m
+---
+
+t = 3.80 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -7.86 m/s
+altitude = 7.83 m
+---
+
+t = 3.90 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -8.84 m/s
+altitude = 6.95 m
+---
+
+t = 4.00 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -9.83 m/s
+altitude = 5.96 m
+---
+
+t = 4.10 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -10.81 m/s
+altitude = 4.88 m
+---
+
+t = 4.20 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -11.79 m/s
+altitude = 3.70 m
+---
+
+t = 4.30 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -12.77 m/s
+altitude = 2.43 m
+---
+
+t = 4.40 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -13.75 m/s
+altitude = 1.05 m
+---
+
+t = 4.50 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -14.73 m/s
+altitude = 0.00 m
+---
+
+t = 4.60 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -15.71 m/s
+altitude = 0.00 m
+---
+
+t = 4.70 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -16.69 m/s
+altitude = 0.00 m
+---
+
+t = 4.80 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -17.67 m/s
+altitude = 0.00 m
+---
+
+t = 4.90 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -18.65 m/s
+altitude = 0.00 m
+---
+
+t = 5.00 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -19.64 m/s
+altitude = 0.00 m
+---
+
+t = 5.10 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -20.62 m/s
+altitude = 0.00 m
+---
+
+t = 5.20 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -21.60 m/s
+altitude = 0.00 m
+---
+
+t = 5.30 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -22.58 m/s
+altitude = 0.00 m
+---
+
+t = 5.40 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -23.56 m/s
+altitude = 0.00 m
+---
+
+t = 5.50 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -24.54 m/s
+altitude = 0.00 m
+---
+
+t = 5.60 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -25.52 m/s
+altitude = 0.00 m
+---
+
+t = 5.70 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -26.50 m/s
+altitude = 0.00 m
+---
+
+t = 5.80 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -27.48 m/s
+altitude = 0.00 m
+---
+
+t = 5.90 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -28.46 m/s
+altitude = 0.00 m
+---
+
+t = 6.00 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -29.45 m/s
+altitude = 0.00 m
+---
+
+t = 6.10 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -30.43 m/s
+altitude = 0.00 m
+---
+
+t = 6.20 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -31.41 m/s
+altitude = 0.00 m
+---
+
+t = 6.30 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -32.39 m/s
+altitude = 0.00 m
+---
+
+t = 6.40 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -33.37 m/s
+altitude = 0.00 m
+---
+
+t = 6.50 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -34.35 m/s
+altitude = 0.00 m
+---
+
+t = 6.60 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -35.33 m/s
+altitude = 0.00 m
+---
+
+t = 6.70 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -36.31 m/s
+altitude = 0.00 m
+---
+
+t = 6.80 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -37.29 m/s
+altitude = 0.00 m
+---
+
+t = 6.90 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -38.27 m/s
+altitude = 0.00 m
+---
+
+t = 7.00 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -39.26 m/s
+altitude = 0.00 m
+---
+
+t = 7.10 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -40.24 m/s
+altitude = 0.00 m
+---
+
+t = 7.20 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -41.22 m/s
+altitude = 0.00 m
+---
+
+t = 7.30 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -42.20 m/s
+altitude = 0.00 m
+---
+
+t = 7.40 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -43.18 m/s
+altitude = 0.00 m
+---
+
+t = 7.50 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -44.16 m/s
+altitude = 0.00 m
+---
+
+t = 7.60 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -45.14 m/s
+altitude = 0.00 m
+---
+
+t = 7.70 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -46.12 m/s
+altitude = 0.00 m
+---
+
+t = 7.80 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -47.10 m/s
+altitude = 0.00 m
+---
+
+t = 7.90 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -48.08 m/s
+altitude = 0.00 m
+---
+
+t = 8.00 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -49.07 m/s
+altitude = 0.00 m
+---
+
+t = 8.10 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -50.05 m/s
+altitude = 0.00 m
+---
+
+t = 8.20 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -51.03 m/s
+altitude = 0.00 m
+---
+
+t = 8.30 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -52.01 m/s
+altitude = 0.00 m
+---
+
+t = 8.40 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -52.99 m/s
+altitude = 0.00 m
+---
+
+t = 8.50 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -53.97 m/s
+altitude = 0.00 m
+---
+
+t = 8.60 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -54.95 m/s
+altitude = 0.00 m
+---
+
+t = 8.70 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -55.93 m/s
+altitude = 0.00 m
+---
+
+t = 8.80 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -56.91 m/s
+altitude = 0.00 m
+---
+
+t = 8.90 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -57.89 m/s
+altitude = 0.00 m
+---
+
+t = 9.00 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -58.88 m/s
+altitude = 0.00 m
+---
+
+t = 9.10 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -59.86 m/s
+altitude = 0.00 m
+---
+
+t = 9.20 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -60.84 m/s
+altitude = 0.00 m
+---
+
+t = 9.30 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -61.82 m/s
+altitude = 0.00 m
+---
+
+t = 9.40 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -62.80 m/s
+altitude = 0.00 m
+---
+
+t = 9.50 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -63.78 m/s
+altitude = 0.00 m
+---
+
+t = 9.60 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -64.76 m/s
+altitude = 0.00 m
+---
+
+t = 9.70 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -65.74 m/s
+altitude = 0.00 m
+---
+
+t = 9.80 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -66.72 m/s
+altitude = 0.00 m
+---
+
+t = 9.90 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -67.70 m/s
+altitude = 0.00 m
+---
+
+t = 10.00 s
+mass = 0.300 kg
+thrust = 0.00 N
+weight = 0.300 * 9.81 = 2.94 N
+drag = 0.00 N
+net force = 0.00 - 2.94 - 0.00 = -2.94 N
+acceleration = -2.94 / 0.300 = -9.81 m/s²
+velocity = -68.69 m/s
+altitude = 0.00 m
+---
