@@ -1,0 +1,25 @@
+# === Python cache files ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environment ===
+venv/
+ENV/
+env/
+
+# === Jupyter Notebooks checkpoints ===
+.ipynb_checkpoints
+
+# === VS Code settings ===
+.vscode/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Environment variables ===
+.env
