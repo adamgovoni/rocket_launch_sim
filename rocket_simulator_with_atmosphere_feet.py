@@ -1,14 +1,17 @@
+# NOTE: This version displays altitude, velocity, and acceleration in feet.
+
 import pygame
 import random
 import math
 import time as systime
+import numpy as np
 
 # === Pygame Setup ===
 pygame.init()
 pygame.mixer.init()
-WIDTH, HEIGHT = 800, 800
+WIDTH, HEIGHT = 1000, 1000
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("🚀 Dual-Booster Rocket Simulator with HUD")
+pygame.display.set_caption("🚀 Rocket Simulator with Atmosphere & HUD")
 clock = pygame.time.Clock()
 font = pygame.font.SysFont("consolas", 22)
 
@@ -28,26 +31,23 @@ GRAY = (120, 120, 120)
 GREEN = (0, 255, 0)
 CYAN = (0, 255, 255)
 
-# === Rocket Parameters ===
-m0 = 3.0       # initial mass (kg)
-mf = 1.0       # final mass after fuel burn (kg)
-thrust = 400.0 # Dual boosters (N)
-burn_time = 8  # seconds
-drag_coef = 0.02
-mass_loss_rate = (m0 - mf) / burn_time
+# === Rocket Parafeet ===
+m0 = 3.0
+mf = 1.0
+thrust = 400.0
+burn_time = 8
+base_drag_coef = 0.03
 g = 9.81
 dt = 0.033
-max_display_alt = 1500  # meters
-SCALE = (HEIGHT - 100) / max_display_alt  # pixels per meter
+max_display_alt = 4921.26
+SCALE = (HEIGHT - 100) / max_display_alt
+mass_loss_rate = (m0 - mf) / burn_time
 
-# === Simulation State ===
-time = 0
-velocity = 0
-altitude = 0
-mass = m0
-positions = []
-velocities = []
-accelerations = []
+# === Air Density Model ===
+def air_density(altitude):
+    rho0 = 1.225
+    scale_height = 8500.0
+    return rho0 * math.exp(-altitude / scale_height)
 
 # === Countdown ===
 def countdown():
@@ -63,7 +63,7 @@ def countdown():
     pygame.display.flip()
     systime.sleep(1)
 
-# === Explosion Particles ===
+# === Explosion ===
 class Particle:
     def __init__(self, x, y):
         self.x = x
@@ -92,15 +92,19 @@ class Particle:
     def is_alive(self):
         return self.life > -30
 
-# === Start Countdown ===
+# === Initialize Simulation State ===
 countdown()
-
-# === Rocket Geometry ===
 rocket_width, rocket_height = 24, 50
 flame_height = 22
 rocket_x = WIDTH // 2 - rocket_width // 2
 
-# === Flight Loop ===
+time = 0
+velocity = 0
+altitude = 0
+mass = m0
+positions, velocities, accelerations = [], [], []
+
+# === Launch Loop ===
 running = True
 while altitude >= 0:
     for event in pygame.event.get():
@@ -116,8 +120,9 @@ while altitude >= 0:
     else:
         F_thrust = 0
 
+    rho = air_density(altitude)
     F_gravity = mass * g
-    F_drag = drag_coef * velocity**2 if velocity > 0 else 0
+    F_drag = rho * base_drag_coef * velocity**2 if velocity > 0 else 0
     F_net = F_thrust - F_gravity - F_drag
     acceleration = F_net / mass
     accelerations.append(acceleration)
@@ -126,57 +131,53 @@ while altitude >= 0:
     altitude += velocity * dt
     time += dt
 
-    # === Draw ===
+    # === Draw Scene ===
     screen.fill(BLACK)
 
-    # Altitude Ruler
     for a in range(0, max_display_alt + 1, 100):
         y = HEIGHT - int(a * SCALE)
         pygame.draw.line(screen, GRAY, (60, y), (70, y), 2)
         label = font.render(f"{a}m", True, WHITE)
         screen.blit(label, (10, y - 10))
 
-    # Rocket
     rocket_y = HEIGHT - int(altitude * SCALE) - rocket_height
     pygame.draw.rect(screen, RED, (rocket_x, rocket_y, rocket_width, rocket_height))
 
-    # Dual Flames
     if time < burn_time:
         flicker = random.randint(-4, 4)
-        flame1 = [(rocket_x, rocket_y + rocket_height),
-                  (rocket_x + 6, rocket_y + rocket_height),
-                  (rocket_x + 3, rocket_y + rocket_height + flame_height + flicker)]
+        pygame.draw.polygon(screen, ORANGE, [
+            (rocket_x, rocket_y + rocket_height),
+            (rocket_x + 6, rocket_y + rocket_height),
+            (rocket_x + 3, rocket_y + rocket_height + flame_height + flicker)
+        ])
+        pygame.draw.polygon(screen, ORANGE, [
+            (rocket_x + rocket_width - 6, rocket_y + rocket_height),
+            (rocket_x + rocket_width, rocket_y + rocket_height),
+            (rocket_x + rocket_width - 3, rocket_y + rocket_height + flame_height + flicker)
+        ])
+        pygame.draw.polygon(screen, YELLOW, [
+            (rocket_x + 1, rocket_y + rocket_height),
+            (rocket_x + 5, rocket_y + rocket_height),
+            (rocket_x + 3, rocket_y + rocket_height + 10 + flicker)
+        ])
+        pygame.draw.polygon(screen, YELLOW, [
+            (rocket_x + rocket_width - 5, rocket_y + rocket_height),
+            (rocket_x + rocket_width - 1, rocket_y + rocket_height),
+            (rocket_x + rocket_width - 3, rocket_y + rocket_height + 10 + flicker)
+        ])
 
-        flame2 = [(rocket_x + rocket_width - 6, rocket_y + rocket_height),
-                  (rocket_x + rocket_width, rocket_y + rocket_height),
-                  (rocket_x + rocket_width - 3, rocket_y + rocket_height + flame_height + flicker)]
-
-        pygame.draw.polygon(screen, ORANGE, flame1)
-        pygame.draw.polygon(screen, ORANGE, flame2)
-
-        inner1 = [(rocket_x + 1, rocket_y + rocket_height),
-                  (rocket_x + 5, rocket_y + rocket_height),
-                  (rocket_x + 3, rocket_y + rocket_height + 10 + flicker)]
-
-        inner2 = [(rocket_x + rocket_width - 5, rocket_y + rocket_height),
-                  (rocket_x + rocket_width - 1, rocket_y + rocket_height),
-                  (rocket_x + rocket_width - 3, rocket_y + rocket_height + 10 + flicker)]
-
-        pygame.draw.polygon(screen, YELLOW, inner1)
-        pygame.draw.polygon(screen, YELLOW, inner2)
-
-    # === HUD Overlay ===
     hud_lines = [
-        f"ALT: {altitude:.1f} m",
-        f"VEL: {velocity:.1f} m/s",
-        f"ACC: {acceleration:.1f} m/s²",
+        f"ALT: {altitude*3.28084:.1f} ft",
+        f"VEL: {velocity*3.28084:.1f} ft/s",
+        f"ACC: {acceleration*3.28084:.1f} ft/s²",
         f"THRUST: {F_thrust:.1f} N",
         f"MASS: {mass:.2f} kg",
+        f"AIR: {rho:.3f} kg/ft³",
         f"TIME: {time:.2f} s"
     ]
     for i, line in enumerate(hud_lines):
         text = font.render(line, True, CYAN)
-        screen.blit(text, (WIDTH - 280, 40 + i * 30))
+        screen.blit(text, (WIDTH - 300, 40 + i * 30))
 
     pygame.display.flip()
     clock.tick(30)
@@ -194,15 +195,15 @@ while any(p.is_alive() for p in particles):
     pygame.display.flip()
     clock.tick(60)
 
-# === Mission Stats ===
+# === End of Mission Summary ===
 screen.fill(BLACK)
 max_alt = max(positions)
 impact_velocity = velocities[-1]
 total_time = time
 
 summary = [
-    f"Max Altitude: {max_alt:.2f} m",
-    f"Impact Velocity: {impact_velocity:.2f} m/s",
+    f"Max Altitude: {max_alt*3.28084:.2f} ft",
+    f"Impact Velocity: {impact_velocity*3.28084:.2f} ft/s",
     f"Flight Duration: {total_time:.2f} s",
     "Click to Exit"
 ]
